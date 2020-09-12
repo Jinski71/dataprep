@@ -71,24 +71,24 @@
                         "max_count": {
                             "type": "integer"
                         },
-                        "anchor_key": {
+                        "offset_key": {
                             "type": "string",
                             "optional": true
                         },
-                        "count_key": {
+                        "limit_key": {
                             "type": "string"
                         },
-                        "cursor_id": {
+                        "seek_id": {
                             "type": "string",
                             "optional": true
                         },
-                        "cursor_key": {
+                        "seek_key": {
                             "type": "string",
                             "optional": true
                         }
                     },
                     "required": [
-                        "count_key",
+                        "limit_key",
                         "type",
                         "max_count"
                     ],
